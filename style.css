@@ -333,10 +333,92 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.headb{
+    background: radial-gradient(#fff , #ffd6d6);
+    height: 800px;
+}
+.cardPb{
+    text-align: center;
+    margin: 5%;
+}
+.cardbuy{
+    width: 22%;
+   border: 1px solid #737373;
+   padding: 10px;
+   margin-left: 40%;
+   margin-top: 10%;
+}
+.cardbuy:hover{
+    border: 1px solid rgb(228, 49, 49) ;
+}
+.cardbuy img{
+    width: 100%;
+}
+.cardbuy p{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cardbuy #smallp{
+    color: #737373;
+    margin-top:-7px;
+}
+.cardbuy #star{
+    color:  #ff532b;
+}
+.cardbuy h4{
+    padding: 10px;
+}
+.cardbuy h4 span{
+    color:green;
+    margin-left: 3%;
+}
+.cardbuy select{
+    background-color:rgb(228, 49, 49);
+    color:white;
+    margin: 3%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(228, 49, 49) ;
+    transition: all 0.4s;
+    transition: normal;
+    transition-duration: 0.4s;
+}
+.cardbuy select:hover{
+    background-color: white;
+    color:rgb(228, 49, 49);
+    transition: all 0.4s;
+    transition: normal;
+    transition-duration: 0.4s;
+}
+.cardbuy select:focus{
+    background-color: white;
+    border: 1px solid rgb(228, 49, 49);
+    color:rgb(228, 49, 49);
+    transition: all 0.4s;
+    transition: normal;
+    transition-duration: 0.4s;
+}
+#pbt{
+    width:100% ;
+}
+#thank h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 100px;
+    color: rgb(228, 49, 49);
+}
 @media (max-width:375px){
     .BrandsLogo{
         display: flex;
         flex-wrap: wrap;
+    }
+    .text .para button{
+        width: 50% !important;
+        padding: 5px !important;
     }
     .blogo{
         width:50% !important;
@@ -356,6 +438,17 @@ a:hover{
     .footer .col2 a{
         font-size: 8px !important;
     }
+   .cardbuy{
+      width: 55%;
+      margin-left: 24%;
+      margin-top: 30%;
+    }
+   #thank h1{
+      font-size: 100px;
+      margin-left: 15%;
+      margin-top: 50%;
+   }
+
 }
 @media (max-width :430px){
     .cardP{
