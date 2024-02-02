@@ -1,0 +1,702 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.head{
+    background: radial-gradient(#fff , #ffd6d6);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 13px;
+    border-bottom: 1px solid black;
+}
+.logo{
+   padding-left: 7%
+}
+.logo img{
+    width: 110px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    padding-right: 7%;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+a:hover{
+    color: red;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.text{
+    margin: 5%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text .para p{
+    margin-top: 4%;
+    color: #737373;
+}
+.text .para button{
+    background-color: rgb(228, 49, 49);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(228, 49, 49);
+    border-radius: 20px;
+    padding: 10px;
+    width:30% ;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.text .para button:hover{
+    background-color: white;
+    color:rgb(228, 49, 49) ;
+    border: 1px solid rgb(228, 49, 49);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.girlimg img{
+    width: 400px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.girlimg img:hover{
+    transform: scale(1.04);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.ftext{
+    text-align: center;
+}
+.ft p{
+    background-color: #ff532b;
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 0.5%;
+}
+.cardP{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.card{
+   width: 22%;
+   border: 1px solid #737373;
+   padding: 10px;
+}
+.card:hover{
+    transition: all 0.4s;
+    transition: normal;
+    transition-duration: 0.4s;
+    border: 1px solid rgb(228, 49, 49);
+}
+.card img{
+    width: 100%;
+    height: 350px;
+}
+.card p{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card #smallp{
+    color: #737373;
+    margin-top:-7px;
+}
+.card #star{
+    color:  #ff532b;
+}
+.card h4{
+    padding: 10px;
+}
+.card h4 span{
+    color:green;
+    margin-left: 3%;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    background-color: rgb(228, 49, 49);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(228, 49, 49);
+    border-radius: 20px;
+    padding: 10px;
+    width:40%;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.btn button:hover{
+    background-color: white;
+    color:rgb(228, 49, 49) ;
+    border: 1px solid rgb(228, 49, 49);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.ftext2{
+    margin-top: 6%;
+    text-align: center;
+}
+.ft2 p{
+    background-color: #ff532b;
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 0.5%;
+}
+.watchbanner{
+    background: radial-gradient(#fff , #ffd6d6);
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    margin-top: 5%;
+}
+.wimage img{
+    width: 400px;
+    margin-top: 30%;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.wimage img:hover{
+    transform: scale(1.04);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.bannertext{
+    margin-top: 15%;
+    align-items: center;
+}
+.bannertext h1{
+    font-size: 55px;
+}
+.bannertext p{
+    color: #737373;
+}
+.watchbannerbtn{
+    background-color: rgb(228, 49, 49);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(228, 49, 49);
+    border-radius: 20px;
+    padding: 10px;
+    width:30% ;
+    margin-top: 5%;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.watchbannerbtn:hover{
+    background-color: white;
+    color:rgb(228, 49, 49) ;
+    border: 1px solid rgb(228, 49, 49);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.BrandsLogo{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   justify-content: center;
+   margin-top: 5%;
+}
+.blogo img{
+    width: 200px;
+}
+.footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col1 img{
+    width: 200px;
+    margin-left: 30%;
+}
+.col1 p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col2 h2{
+    color: white;
+    font-size: 50px;
+}
+.col2 a{
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+}
+.col2 #fb:hover{
+    color:rgb(24, 24, 238);
+}
+.col2 #wh:hover{
+    color: green;
+}
+.col2 #twit:hover{
+    color:rgb(24, 24, 238);
+}
+.col3 h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+}
+.col3 img{
+    width: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.col3 img:hover{
+    background-color:chartreuse;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.col3 span{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 10%;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.col3 span:hover{
+    background-color:chartreuse;
+    color: black;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.ftext2page{
+    text-align: center;
+    margin-top: 10%;
+}
+.ft2pg p{
+    background-color: #ff532b;
+    width: 90px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 0.5%
+}
+.about{
+    background: radial-gradient(#fff , #ffd6d6);
+    color: black;
+    height: 400px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:375px){
+    .BrandsLogo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .blogo{
+        width:50% !important;
+    }
+    .footer .col3 h2{
+        font-size: 15px !important;
+    }
+    .footer .col3 span{
+        font-size: 8px !important;
+    }
+    .footer .col3 img{
+        width: 24px !important;
+    }
+    .footer .col2 h2{
+        font-size: 12px !important;
+    }
+    .footer .col2 a{
+        font-size: 8px !important;
+    }
+}
+@media (max-width :430px){
+    .cardP{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width:90% !important;
+    }
+    .text .para h1{
+        font-size: 10px;
+        width: 160px;
+     }
+     .text .para p{
+          font-size: 8px;
+     }
+     .girlimg img{
+        width: 200px;
+     }
+     .text .para button{
+        width:35%;
+        padding:3%;
+        font-size: 5px;
+    }
+    .logo{
+        padding-left: 5%
+     }
+     .logo img{
+         width: 60px;
+     }
+     .links{
+         display: flex;
+         gap: 20px;
+         padding-right: 7%;
+         align-items: center;
+         font-size: 10px;
+     }
+     .watchbanner{
+        align-items: center;
+        height: 400px;
+     }
+     .wimage img{
+           width:100px !important;
+     }
+     .bannertext{
+        font-size: 3px !important;
+     }
+     .bannertext h1{
+           font-size: 13px !important;
+     }
+     .bannertext p{
+        font-size: 6px !important;
+     }
+     .watchbannerbtn{
+        font-size: 6px;
+        width:30%;
+     }
+     .BrandsLogo{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .col1 img{
+        width: 60px !important;
+        margin-left: 21%;
+    }
+    .col1 p{
+        font-size: 4px !important;
+    }
+    .col2 h2{
+        font-size: 12px !important;
+    }
+    .col2 a{
+        font-size: 8px !important;
+        margin-left: 10% !important;
+    }
+    .col3 h2{
+        font-size: 12px !important;
+        margin-top: 25px !important;
+    }
+    .col3 img{
+        width: 22px  !important;
+        margin-bottom: 80% !important;
+    }
+    .col3 span{
+        font-size: 8px !important;
+        margin-bottom: 30% !important;
+    }
+}
+@media (max-width :540px){
+    .cardP{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width:70% !important;
+    }
+    .text .para h1{
+        font-size: 10px;
+        width: 160px;
+     }
+     .text .para p{
+          font-size: 8px;
+     }
+     .girlimg img{
+        width: 200px;
+     }
+     .text .para button{
+        width:35%;
+        padding:3%;
+        font-size: 5px;
+    }
+    .logo{
+        padding-left: 5%
+     }
+     .logo img{
+         width: 60px;
+     }
+     .links{
+         display: flex;
+         gap: 20px;
+         padding-right: 7%;
+         align-items: center;
+         font-size: 10px;
+     }
+     .watchbanner{
+        align-items: center;
+        height: 400px;
+     }
+     .wimage img{
+           width:100px !important;
+     }
+     .bannertext{
+        font-size: 3px !important;
+     }
+     .bannertext h1{
+           font-size: 13px !important;
+     }
+     .bannertext p{
+        font-size: 6px !important;
+     }
+     .watchbannerbtn{
+        font-size: 6px;
+        width:30%;
+     }
+     .BrandsLogo{
+        display: flex;
+        flex-wrap: wrap;
+     }
+    .footer .col1 img{
+        width: 80px !important;
+        margin-left: 25% !important;
+    }
+    .footer .col1 p{
+        font-size: 5px !important;
+    }
+    
+}
+@media (max-width:768px){
+    .text .para button{
+        width: 30%;
+        font-size: 8px;
+    }
+    .text .para p{
+        font-size: 9px;
+    }
+    .BrandsLogo{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .blogo{
+        width:30%;
+     }
+     .col1 img{
+        width: 100px !important;
+        margin-left: 30% !important;
+    }
+    .col1 p{
+        font-size: 11px !important;
+    }
+    .col2 h2{
+        font-size: 30px !important;
+    }
+    .col2 a{
+        font-size: 20px !important;
+        margin-left: 10% !important;
+    }
+    .col3 h2{
+        font-size: 30px !important;
+        margin-top: 30px !important;
+    }
+    .col3 img{
+        width: 30px  !important;
+        margin-bottom: 80% !important;
+    }
+    .col3 span{
+        font-size: 18px !important;
+        margin-bottom: 24% !important;
+    }
+}
+@media (max-width:820px){
+    .text .para button{
+        width: 30%;
+        font-size: 8px;
+    }
+    .text .para p{
+        font-size: 9px;
+    }
+    .BrandsLogo{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .blogo{
+        width:30%;
+     }
+     .col1 img{
+        width: 100px !important;
+        margin-left: 30% !important;
+    }
+    .col1 p{
+        font-size: 11px !important;
+    }
+    .col2 h2{
+        font-size: 30px !important;
+    }
+    .col2 a{
+        font-size: 20px !important;
+        margin-left: 10% !important;
+    }
+    .col3 h2{
+        font-size: 30px !important;
+        margin-top: 30px !important;
+    }
+    .col3 img{
+        width: 30px  !important;
+        margin-bottom: 80% !important;
+    }
+    .col3 span{
+        font-size: 18px !important;
+        margin-bottom: 24% !important;
+    }
+}
+@media (max-width:912px){
+    .text .para button{
+        width: 30%;
+        font-size: 8px;
+    }
+    .text .para p{
+        font-size: 9px;
+    }
+    .BrandsLogo{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .blogo{
+        width:30%;
+     }
+     .col1 img{
+        width: 100px !important;
+        margin-left: 30% !important;
+    }
+    .col1 p{
+        font-size: 11px !important;
+    }
+    .col2 h2{
+        font-size: 30px !important;
+    }
+    .col2 a{
+        font-size: 20px !important;
+        margin-left: 10% !important;
+    }
+    .col3 h2{
+        font-size: 30px !important;
+        margin-top: 30px !important;
+    }
+    .col3 img{
+        width: 30px  !important;
+        margin-bottom: 80% !important;
+    }
+    .col3 span{
+        font-size: 18px !important;
+        margin-bottom: 24% !important;
+    }
+}
+
+@media (max-width:1024px){
+    .cardP{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+     }
+    .card{
+        width:40%;
+        margin-bottom: 5%;
+    }
+    .watchbanner{
+        align-items:center;
+        height: 400px;
+     }
+     .wimage img{
+           width:170px;
+     }
+     .bannertext{
+        font-size: 5px;
+     }
+     .bannertext p{
+        font-size: 15px;
+     }
+     .bannertext h1{
+           font-size: 40px;
+     }
+     .watchbannerbtn{
+        font-size: 6px;
+        width:30%;
+     }
+     .col1 img{
+        width: 200px;
+        margin-left: 21%;
+    }
+    .col1 p{
+        font-size: 15px;
+    }
+    .col2 h2{
+        font-size: 40px;
+    }
+    .col2 a{
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .col3 h2{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .col3 img{
+        width: 35px;
+        margin-bottom: 80%;
+    }
+    .col3 span{
+        font-size: 20px;
+        margin-bottom: 25%;
+    }
+    .BrandsLogo{
+        text-align: center;
+    }
+}
